@@ -32,9 +32,9 @@ echo "$REGION_NAME"
 echo ""
 
 EC2_ID=$(aws ec2 describe-instances \
-    --filters "Name=tag:Name,Values=$NODE_NAME" "Name=instance-state-name,Values=running" \
+    --filters "Name=tag:Name,Values=$NODE_NAME" "Name=instance-state-name,Values=stopped" \
     --query "Reservations[*].Instances[*].InstanceId" \
     --region $REGION_ID \
     --output text)
 echo "EC2_ID :" $EC2_ID
-aws ec2 stop-instances --instance-ids $EC2_ID --region $REGION_ID
+aws ec2 start-instances --instance-ids $EC2_ID --region $REGION_ID
