@@ -1,0 +1,3 @@
+Yukino01,Tokyo,10.0.0.151,Tokyo-vpc,testbed_group,10.0.0.0/20,Tokyo_key,10.0.0.0/24,10.0.8.0/24,ap-northeast-1,IGW_Tokyo,Elastic_IP_Tokyo,NAT_GW_Tokyo,ROUTE_TABLE_PUBLIC_Tokyo,ROUTE_TABLE_PRIVATE_Tokyo,ami-0ac6b9b2908f3e20d,t3a.xlarge,60,gp3
+Yukino02,Tokyo,10.0.8.152,Tokyo-vpc,testbed_group,10.0.0.0/20,Tokyo_key,10.0.0.0/24,10.0.8.0/24,ap-northeast-1,IGW_Tokyo,Elastic_IP_Tokyo,NAT_GW_Tokyo,ROUTE_TABLE_PUBLIC_Tokyo,ROUTE_TABLE_PRIVATE_Tokyo,ami-0ac6b9b2908f3e20d,c5a.xlarge,60,gp3
+Yukino03,Singapore,10.0.24.153,Singapore-vpc,testbed_group,10.0.16.0/20,Singapore_key,10.0.16.0/24,10.0.24.0/24,ap-southeast-1,IGW_Singapore,Elastic_IP_Singapore,NAT_GW_Singapore,ROUTE_TABLE_PUBLIC_Singapore,ROUTE_TABLE_PRIVATE_Singapore,ami-03fa85deedfcac80b,t3a.xlarge,60,gp3
